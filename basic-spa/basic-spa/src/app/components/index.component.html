@@ -1,0 +1,13 @@
+<a [routerLink]="['/']">
+   <b>page_one</b>
+</a>
+<br><br>
+<a [routerLink]="['/page_two']">
+    <b>page_two</b>
+ </a>
+<br><br>
+ <button (click)="clickMe()">
+    <b>page_three</b>
+ </button>
+
+ <router-outlet></router-outlet>

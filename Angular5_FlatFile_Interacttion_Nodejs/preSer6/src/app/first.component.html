@@ -1,0 +1,13 @@
+<h1>{{data|json}}</h1>
+<table border="1px" style="font-size:36px; border:1px solid green">
+    <tr>
+        <td>Product Ids</td>
+        <td>Product Name</td>
+        <td>Product Cost</td>
+    </tr>
+    <tr *ngFor="let x of data.products" style="font-size:18px;border:1px solid green">
+        <td>{{x.p_id}}</td>
+        <td>{{x.p_name}}</td>
+        <td>{{x.p_cost}}</td>
+    </tr>
+</table>
